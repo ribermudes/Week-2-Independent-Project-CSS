@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman",serif;
+  /*background-color: black;*/
+
+}
+
+img {
+  position: relative;
+  margin: 0;
+}
+
+header {
+  background: rgba(255,255,255, 0.9);
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  padding: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 480px) {
+
+  body {
+  background-color: black;
+}
+
+  .feature-1, .feature-2, .about p {
+    background: rgba(255,255,255, 0.9);
+    top: 20px;
+    left: 50px;
+    padding: 1em;
+    overflow: auto;
+  }
+
+  .feature-1 {
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width: 640px) {
+
+  body {
+  background-color: black;
+  }
+
+ .feature1 {
+   border: 1px solid #051901;
+  }
+
+
+}
